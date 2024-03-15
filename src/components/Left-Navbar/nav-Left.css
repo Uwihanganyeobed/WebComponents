@@ -1,0 +1,178 @@
+
+.offcanvas{
+   margin: 0;
+   padding: 0;
+}
+h2{
+   font-size: 25px;
+   margin-left: 2rem;
+
+}
+hr {
+   margin: 1rem 0; 
+   border: none;
+   border: 2px solid #ccc; 
+   width: 100%;
+}
+
+a{
+   text-decoration: none;
+}
+p{
+   color: #000;
+   font-size: 18px;
+   margin-left: 2rem ;
+}
+.canvas__main{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: self-start;
+   justify-content: flex-start;
+   padding: 0;
+   overflow: hidden;
+   margin-top: 0;
+   max-height: 1000vh;
+   max-width: 800px;
+}
+.canvas__heading{
+   margin-top: -1rem;
+   margin-right: 11.3rem;
+   margin-left: -1rem;
+   margin-bottom: -1rem;
+   background: #232F3E;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: start;
+}
+
+.canvas__heading svg{
+   width: 30px;
+   margin-left: 2rem;
+}
+.canvas__heading h1{
+   color: #FFF;
+   font-family: Roboto;
+   font-weight: 800;
+  text-align: center;
+   padding: 1rem;
+   font-size: 24px;
+}
+
+.canvass__electronics{
+   margin-top: 1rem;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: self-start;
+   justify-content: flex-start;
+
+}
+.canvass__electronics h2{
+   color: #000;
+   font-family: Roboto;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 1.5rem;
+   display: block;
+   width: 100%;
+}
+.mobile, .smart, .lap{
+   display: block;
+   width: 100%;
+}
+.mobile:hover,.smart:hover,.lap:hover{
+   background-color: #c9c3c3;
+}
+
+.canvass__department{
+   margin: 1rem 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: self-start;
+   justify-content: flex-start;
+
+}
+.canvass__department h2{
+   color: #000;
+   font-family: Roboto;
+   font-weight: 800;
+   line-height: normal;
+   margin-bottom: 1.5rem;
+   display: block;
+   width: 100%;
+}
+.lap_min{
+   margin: 0 2rem;
+   padding: 1rem 0;
+   /* display: inline-block; */
+   width: 100%;
+}
+.collapse{
+   padding-top: 5px;
+   overflow: hidden;
+}
+.card{
+   margin-left: -3rem;
+   overflow: hidden;
+}
+.lap_min:hover{
+   background-color: #c9c3c3;
+   cursor: pointer;
+}
+.p-left{
+   overflow: hidden;
+   margin-left: -0.1rem;
+   padding: -1rem 0;
+}
+.p-left:hover{
+   overflow: hidden;
+   margin-left: -0.1rem;
+   padding: -1rem 0;
+}
+
+.canvass__settings{
+   margin: 1rem 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: self-start;
+   justify-content: flex-start;
+
+}
+.canvass__settings h2{
+   color: #000;
+   font-family: Roboto;
+   font-weight: 800;
+   line-height: normal;
+   margin-bottom: 1.5rem;
+   display: block;
+   width: 100%;
+}
+.canvass__settings svg{
+   margin-right: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+   .canvas__heading, .canvas__main{
+      width: 100%;
+   }  
+   .canvas__main{
+      height: 150%;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .canvas__main{
+      width: 85%;
+      height: 120%;
+   } 
+}

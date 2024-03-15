@@ -1,0 +1,12 @@
+.scroll__main{
+   display: flex;
+   color: black;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 300px;
+   background: #f3f3f9;
+   margin: 2rem auto;
+   max-width: 800px;
+}
